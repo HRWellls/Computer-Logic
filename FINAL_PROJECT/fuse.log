@@ -1,0 +1,60 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/FINAL_PROJECT/simulate_isim_beh.exe -prj D:/FINAL_PROJECT/simulate_beh.prj work.simulate work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/FINAL_PROJECT/SegmentDecoder.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/ShiftReg.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/Seg7Remap.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/Seg7Decode.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/VGA.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/Seg7Device.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/PS2.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/ipcore_dir/mine.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/ipcore_dir/loopy.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/ipcore_dir/door.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/ipcore_dir/background.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/top.v" into library work
+Analyzing Verilog file "D:/FINAL_PROJECT/simulate.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/FINAL_PROJECT/top.v" Line 85: Port rdn is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/FINAL_PROJECT/top.v" Line 105: Port segment is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/FINAL_PROJECT/top.v" Line 99: Size mismatch in connection of port <data_out>. Formal port size is 10-bit while actual signal size is 8-bit.
+Completed static elaboration
+Compiling module vgac
+Compiling module PS2
+Compiling module SegmentDecoder
+Compiling module Seg7Decode
+Compiling module Seg7Remap
+Compiling module ShiftReg(WIDTH=64)
+Compiling module Seg7Device
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module background
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module loopy
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module door
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module mine
+Compiling module top
+Compiling module simulate
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 30 Verilog Units
+Built simulation executable D:/FINAL_PROJECT/simulate_isim_beh.exe
+Fuse Memory Usage: 37332 KB
+Fuse CPU Usage: 609 ms
